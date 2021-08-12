@@ -1,0 +1,249 @@
+.body{
+    margin: 0;
+    height: 720px;
+    background-color: #f0f2f5;
+}
+
+/** PHẦN BÊN TRÁI**/
+.header{
+    padding: 72px 0 112px 0;
+}
+.header__subnav{
+    box-sizing: border-box;
+    margin-right: 0;
+    padding-right: 32px;
+    width: 580px;
+    display:inline-block;
+}
+.header__subnav-sub{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+    margin-top: 0;
+}
+.header__subnav-face{
+    height: 106px;
+    margin: -28px;
+    border: 0;
+    padding: 74px 0 16px 0;
+}
+.header__bao{
+    margin: 0 auto;
+    padding: 59px 0;
+    position: relative;
+    width: 980px;
+}
+
+
+/**PHẦN BÊN PHẢI**/
+.header__dangnhap{
+    display: inline-block;
+    vertical-align: top;
+    width: 396px;
+    height: 349px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+}
+.header__dangnhap-sdt{
+    text-align: center;
+    padding: 16px 0;
+    
+   
+}
+
+.header__dangnhap-con{
+    width: 396px;
+    height: 456px;
+}
+.header__dangnhap-text{
+    width: 396px;
+    height: 349px;
+    
+}
+
+
+.header__dangnhap-inputt,
+.matkhau{
+    font-size: 17px;
+    padding: 14.5px 16px;
+    width: 330px;
+    margin-bottom: 13px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+}
+
+.header__dangnhap-btn{
+    background-color: #1877f2;
+    border-radius: 6px;
+    line-height: 48px;
+    width: 364px;
+    border:none;
+    font-size: 20px;
+}
+
+.header__dangnhap-bt{
+    text-align: center;
+    text-decoration: none;
+    margin-top: -13px;
+    
+}
+
+.header__dangnhap-btn:hover{
+    cursor: pointer;
+    background-color: #6694f1;
+    
+}
+
+.header__dangnhap-btn{
+    color: #ffffff;
+    font-weight: 700;
+    padding: 0;
+    border: 0;
+
+}
+
+.header__dangnhap-quen{
+    margin-top: 16px;
+}
+.header__dangnhap-quenmk{
+    color: #1877f2;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.header__dangnhap-quenmk:hover{
+    text-decoration: underline;
+}
+
+.header__dangnhap-gach{
+    width: 364px;
+    background-color: #dadde1;
+    height: 1px;
+    margin: 20px 16px;
+}
+
+.taotaikhoan{
+    background-color: #42b72a;
+    border:none;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 50px;
+    width: 180px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.taotaikhoan:hover{
+    cursor: pointer;
+    background-color: #36a420;
+}
+
+.taotrang{
+    margin: 28px 600px 0;
+    
+}
+.taotrang1{
+    display: flex;
+    height: 30px;
+    margin: 32px 586px 0;
+    width: 396px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+   
+}
+._8esh{
+    color: black;
+    text-decoration: none;
+    flex-wrap: nowrap;
+    font-weight: 600;
+    flex:none;
+    margin: -17px -6px 0 12px;
+    
+}
+
+._8esh:hover{
+    text-decoration-line: underline;
+}
+
+
+
+/*FOOTER*/
+.footer{
+    padding: 20px 0 0 0;
+    height: 158px;
+    width: 1349px;
+    background-color: white;
+}
+._sv4{
+    padding-left: 10px;
+    color: #737373;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+._sv4:hover{
+    text-decoration-line: underline ;
+}
+._sv41{
+    color: #737373;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.page_footer-language{
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.page_footer-country{
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.mvl-copyright{
+    padding-left: 0;
+    color: #737373;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+.pageFooter{
+    margin: 0 184px 0;
+    height: 140px;
+    font-size: 12px;
+}
+.subnav{
+    padding-left: 20px;
+    color: #737373;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.subnav:hover{
+    text-decoration-line: underline ;
+}
+.subna{
+    color: #737373;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.subna:hover{
+    text-decoration-line: underline ;
+}
+.border{
+    height: 1px;
+    width: 980px;
+    background-color: #dddfe2;
+}
+
+
+
+
+
+
+
