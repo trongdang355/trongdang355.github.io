@@ -1,249 +1,389 @@
+
+
 .body{
+margin: 0;
+padding: 0;
+width: 100%;
+box-sizing: border-box;
+}
+/*Navbar*/
+.navbar {
+    height: 2.5625em;
     margin: 0;
-    height: 720px;
-    background-color: #f0f2f5;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding: 0.625em 0;
+    margin: 0;
+    font-family: cursive;
+    transition: all 0.3s ease;
+    background-color: rgb(103, 223, 207);
 }
-
-/** PHẦN BÊN TRÁI**/
-.header{
-    padding: 72px 0 112px 0;
+.max-width{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 81.25em;
+    padding-left: 7.875em;
+    padding-right: 60px;
+    margin: auto;
+    height: 35px;
 }
-.header__subnav{
-    box-sizing: border-box;
-    margin-right: 0;
-    padding-right: 32px;
-    width: 580px;
-    display:inline-block;
-}
-.header__subnav-sub{
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    font-size: 28px;
-    font-weight: normal;
-    line-height: 32px;
-    width: 500px;
-    margin-top: 0;
-}
-.header__subnav-face{
-    height: 106px;
-    margin: -28px;
-    border: 0;
-    padding: 74px 0 16px 0;
-}
-.header__bao{
-    margin: 0 auto;
-    padding: 59px 0;
-    position: relative;
-    width: 980px;
-}
-
-
-/**PHẦN BÊN PHẢI**/
-.header__dangnhap{
-    display: inline-block;
-    vertical-align: top;
-    width: 396px;
-    height: 349px;
-    background-color: #ffffff;
-    border-radius: 5px;
-
-}
-.header__dangnhap-sdt{
-    text-align: center;
-    padding: 16px 0;
-    
-   
-}
-
-.header__dangnhap-con{
-    width: 396px;
-    height: 456px;
-}
-.header__dangnhap-text{
-    width: 396px;
-    height: 349px;
-    
-}
-
-
-.header__dangnhap-inputt,
-.matkhau{
-    font-size: 17px;
-    padding: 14.5px 16px;
-    width: 330px;
-    margin-bottom: 13px;
-    border: 1px solid #dddfe2;
-    border-radius: 5px;
-}
-
-.header__dangnhap-btn{
-    background-color: #1877f2;
-    border-radius: 6px;
-    line-height: 48px;
-    width: 364px;
-    border:none;
-    font-size: 20px;
-}
-
-.header__dangnhap-bt{
-    text-align: center;
-    text-decoration: none;
-    margin-top: -13px;
-    
-}
-
-.header__dangnhap-btn:hover{
-    cursor: pointer;
-    background-color: #6694f1;
-    
-}
-
-.header__dangnhap-btn{
-    color: #ffffff;
-    font-weight: 700;
+.logo{
+    display: block;
+    margin: 0;
     padding: 0;
-    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.logo-i{
+color: #ffe772;
+}
+.menu{
+    margin-top: 2.125em;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    list-style: none;
+    height: 2.5625em;
+    font-size: 1.375em;
+    margin-left: inherit;
 
 }
-
-.header__dangnhap-quen{
-    margin-top: 16px;
+.menu-btn{
+    display: flex;
+    text-decoration: none;
+    padding-right: 1.875em;
+    color: #fff;
 }
-.header__dangnhap-quenmk{
-    color: #1877f2;
-    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+.menu-btn:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
+
+
+/*SLIDER*/
+.img{
+    width: 100%;
+}
+.slider{
+width: 100%;
+height: auto;
+padding: 60px 0;
+}
+.slider-full{
+    width: 80%;
+    position: absolute;
+    height: 200px;
+    margin: 19% 10%;
+}
+.slider-text{
+    position: absolute;
+    font-size: 65px;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 12px yellow;
+    font-family: monospace;
+    width: 100%;
+    text-align: center;
+}
+.slider-text1{
+    position: absolute;
+    font-size: 35px;
+    font-family: monospace;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 0 0 12px yellow;
+    width: 100%;
+    text-align: center;
+    margin-top: 75px;
+}
+.marquee{
+    padding-top: 12px;
+}
+.marquee-text{
+    font-size: 27px;
+    color:#fff;
+    font-family: monospace;
+    font-weight: bold;
+    text-shadow: 0 0 6px rgb(30, 255, 0);
+}
+
+.title{
+    font-size: 60px;
+    text-shadow: 0 0 6px rgb(255 18 18);
+}
+.title-text{
+    text-align: center;
+    padding-top: 12px;
+    margin-left: 66px;
+    font-size: 24px;
+    font-family: cursive;
+    text-shadow: 0 0 4px red;
+}
+
+
+/*Introduction*/
+.introduction{
+width: 100%;
+height: 550px;
+}
+.introduction-sub{
+    width: 84%;
+    height: 390px;
+    margin-top: 22px;
+    padding: 0 8%;
+}
+.introduction-sub-left{
+    height: 100%;
+    width: 40%;
+    background-image: url(https://st.quantrimang.com/photos/image/2019/07/06/it-la-gi-2.jpg);
+}
+.introduction-sub-right{
+    width: 120%;
+    margin-left: 120%;
+}
+.h1{
+    font-family: cursive;
+}
+.p{  height: auto;
+    text-align: justify;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #8e8e8e;
+}
+
+/*Interests*/
+.interest{
+    width: 100%;
+    height: 565px;
+    background-color: black;
+}
+
+/*Contact*/
+.contact{
+    width: 100%;
+    height: 570px;
+}
+
+/*Footer*/
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+footer span a{
+    color: #3DCFD3;
     text-decoration: none;
 }
-
-.header__dangnhap-quenmk:hover{
+footer span a:hover{
     text-decoration: underline;
 }
 
-.header__dangnhap-gach{
-    width: 364px;
-    background-color: #dadde1;
-    height: 1px;
-    margin: 20px 16px;
+
+/* responsive media query start */
+@media (max-width: 1104px) {
+    .about .about-content .left img{
+        height: 350px;
+        width: 350px;
+    }
 }
 
-.taotaikhoan{
-    background-color: #42b72a;
-    border:none;
-    border-radius: 5px;
-    color: #ffffff;
-    height: 50px;
-    width: 180px;
-    font-size: 17px;
-    font-weight: 700;
+@media (max-width: 991px) {
+    .max-width{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 947px){
+    .menu-btn{
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before{
+        content: "\f00d";
+    }
+    .navbar .menu{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active{
+        left: 0;
+    }
+    .navbar .menu li{
+        display: block;
+    }
+    .navbar .menu li a{
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .home .home-content .text-2{
+        font-size: 70px;
+    }
+    .home .home-content .text-3{
+        font-size: 35px;
+    }
+    .home .home-content a{
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-width{
+        max-width: 930px;
+    }
+    .about .about-content .column{
+        width: 100%;
+    }
+    .about .about-content .left{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right{
+        flex: 100%;
+    }
+    .services .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .skills .skills-content .column,
+    .contact .contact-content .column{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .nav-footer {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+    #icons {
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    ul.nav-footer {
+        padding: 0 !important;
+    }
+    #icons {
+        margin-left: -2rem;
+    }
+    .social-media-and-author {
+        align-items: flex-start;
+    }
 }
 
-.taotaikhoan:hover{
-    cursor: pointer;
-    background-color: #36a420;
+@media (max-width: 690px) {
+    .social-media { 
+        right: 24.5px;
+    }
+    .max-width{
+        padding: 0 23px;
+    }
+    .home .home-content .text-2{
+        font-size: 60px;
+    }
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+    .home .home-content a{
+        font-size: 20px;
+    }
+    .services .serv-content .card{
+        width: 100%;
+    }
 }
-
-.taotrang{
-    margin: 28px 600px 0;
-    
+@media (max-width: 480px) { 
+    .home .home-content .text-2{
+        font-size: 2.5rem !important;
+    }
+    .home .home-content a{
+        padding: 12px 1rem;
+}}
+@media (max-width: 500px) {
+    .home .home-content .text-2{
+        font-size: 50px;
+    }
+    .home .home-content .text-3{
+        font-size: 27px;
+    }
+    .about .about-content .right .text,
+    .skills .skills-content .left .text{
+        font-size: 19px;
+    }
+    .contact .right form .fields{
+        flex-direction: column;
+    }
+    .contact .right form .name,
+    .contact .right form .email{
+        margin: 0;
+    }
+    .right form .error-box{
+       width: 150px;
+    }
+    .scroll-up-btn{
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
 }
-.taotrang1{
+.nav-footer {
     display: flex;
-    height: 30px;
-    margin: 32px 586px 0;
-    width: 396px;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-   
+    justify-content:center;
 }
-._8esh{
-    color: black;
-    text-decoration: none;
-    flex-wrap: nowrap;
-    font-weight: 600;
-    flex:none;
-    margin: -17px -6px 0 12px;
-    
+.summary {
+    justify-content: space-around;
+    margin-bottom: 2rem;
 }
-
-._8esh:hover{
-    text-decoration-line: underline;
-}
-
-
-
-/*FOOTER*/
-.footer{
-    padding: 20px 0 0 0;
-    height: 158px;
-    width: 1349px;
-    background-color: white;
-}
-._sv4{
-    padding-left: 10px;
-    color: #737373;
-    text-decoration: none;
-    font-family: Helvetica, Arial, sans-serif;
-}
-._sv4:hover{
-    text-decoration-line: underline ;
-}
-._sv41{
-    color: #737373;
-    text-decoration: none;
-    font-family: Helvetica, Arial, sans-serif;
-}
-.page_footer-language{
-    padding: 0;
+.footer {
+    position: relative;
     display: flex;
-    list-style: none;
-}
-.page_footer-country{
-    padding: 0;
-    display: flex;
-    list-style: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
-.mvl-copyright{
-    padding-left: 0;
-    color: #737373;
-    text-decoration: none;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 10px;
+.footer h2 {
+    margin-bottom : .5rem;
 }
-.pageFooter{
-    margin: 0 184px 0;
-    height: 140px;
-    font-size: 12px;
+.left-footer {
+    flex: 30%;
 }
-.subnav{
-    padding-left: 20px;
-    color: #737373;
-    text-decoration: none;
-    font-family: Helvetica, Arial, sans-serif;
+.middle-footer {
+    flex: 30%;
 }
-.subnav:hover{
-    text-decoration-line: underline ;
+.right-footer {
+    flex: 40%;
 }
-.subna{
-    color: #737373;
-    text-decoration: none;
-    font-family: Helvetica, Arial, sans-serif;
+.footer p {
+    font-size: 1re;
+    color: gray;
 }
-.subna:hover{
-    text-decoration-line: underline ;
+ul.nav-footer {
+    padding: 2rem 0;
+    padding-right: 2rem;
 }
-.border{
-    height: 1px;
-    width: 980px;
-    background-color: #dddfe2;
+.social-media-and-author {
+    display: flex;
+    flex-direction: column;
 }
-
-
-
-
-
-
-
+.field.name i, .field.email i, .field.subject i , textarea ~ i { 
+    position: absolute;
+    left: 0;
+    top:15px;
+    padding-left: 15px;
+}
